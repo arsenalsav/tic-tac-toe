@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(0,24,36,1) 0%, rgba(9,121,108,1) 0%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.gameInfo{
+    text-align: center;
+}
+
+.board {
+    width: 300px;
+    height: 300px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background: #9c9c9c;
+    transition: .3s all ease;
+}
